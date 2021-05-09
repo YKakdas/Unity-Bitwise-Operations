@@ -3,7 +3,17 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - CHARISMAKEY
+  - CHARISMADOOR
+  - FLYDOOR
+  - MAGICDOOR
+  - INVISIBLEDOOR
+  - INTELLIGENCEDOOR
+  - FLYKEY
+  - MAGICKEY
+  - INVISIBLEKEY
+  - INTELLIGENCEKEY
   layers:
   - Default
   - TransparentFX
