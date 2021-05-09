@@ -22,7 +22,7 @@ public class AttributeManager : MonoBehaviour {
 
 	void OnTriggerExit(Collider other) {
 		other.gameObject.GetComponent<BoxCollider>().isTrigger = false;
-		attributes &= ~doorType;
+		attributes ^= doorType;
 	}
 	private void parseKey(string tag) {
 		if(tag == "CHARISMAKEY") {
